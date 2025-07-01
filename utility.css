@@ -43,7 +43,7 @@
 
 /* Project 2 */
 .card:nth-child(2) {
-   background: url(./assets/project/project-five.png) center center/cover;
+   background: url(./assets/project/project-five.png) center center / cover;
 }
 
 /* Project 3 */
