@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #000;
+}
+
+.card a {
+  color: #ffffff;
+  transition: 0.25s ease-in-out;
+  font-size: 1.1rem;
+  margin-right: 0.3rem;
+}
+
+.card a:hover {
+  color: var(--primary-color);
+}
+
+.card:hover {
+  box-shadow: inset 0 100px 1000px 10px rgba(0, 0, 0, 0.8);
+}
+
+.card:hover .project-info {
+  opacity: 1;
+}
+
+
+.card:hover .project-bio {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Project Images */
+
+/* project 1 */
+.card:nth-child(1) {
+  background: url(../assets/project/project-one.png) center center/cover;
+}
+
+/* Project 2 */
+.card:nth-child(2) {
+   background: url(../assets/project/project-five.png) center center/cover;
+}
+
+/* Project 3 */
+.card:nth-child(3) {
+  background: url(../assets/project/project-six.jpg) center center/cover;
+}
+
+/* Project 4 */
+.card:nth-child(4) {
+  background: url(../assets/project/project-four.png) center center/cover;
+}
+
+/* Project 5 */
+.card:nth-child(5) {
+ 
+  background: url(../assets/project/project-two.png) center center/cover;
+}
+
+/* Project 6 */
+.card:nth-child(6) {
+  background: url(../assets/project/project-three.png) center center/cover;
+}
