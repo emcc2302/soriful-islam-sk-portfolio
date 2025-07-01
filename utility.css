@@ -37,7 +37,8 @@
 
 /* project 1 */
 .card:nth-child(1) {
-  background: url(../assets/project/project-one.png) center center/cover;
+  background: url(./assets/project/project-one.png) center center / cover;
+
 }
 
 /* Project 2 */
