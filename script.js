@@ -30,9 +30,9 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Project Seven",
       tech: "HTML, CSS",
-      github: "https://github.com/emcc2302/Amazon-Clone",
-      live: "#",
-      img: "assets/project/project-seven.png"
+      github: "https://github.com/emcc2302/Ecommerce",
+      live: "https://sorifulislamsk-ecommerce.netlify.app/",
+      img: "assets/project/project-three.png"
     },
     {
       title: "Project Eight",
@@ -51,9 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       title: "Project Ten",
       tech: "HTML, CSS",
-      github: "#",
+      github: "https://github.com/emcc2302/Amazon-Clone",
       live: "#",
-      img: "assets/project/project-ten.png"
+      img: "assets/project/project-seven.png"
     },
     {
       title: "Project Eleven",
