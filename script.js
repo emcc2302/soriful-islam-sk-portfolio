@@ -18,9 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
-
-//for see more button 
+//for see more button
 
 document.addEventListener("DOMContentLoaded", () => {
   const seeMoreBtn = document.querySelector(".btn-secondary");
@@ -32,42 +30,42 @@ document.addEventListener("DOMContentLoaded", () => {
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/Ecommerce",
       live: "https://sorifulislamsk-ecommerce.netlify.app/",
-      img: "assets/project/project-three.png"
+      img: "assets/project/project-three.png",
     },
     {
       title: "Project Eight",
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/banglar-shasya-bima",
       live: "https://emcc2302.github.io/banglar-shasya-bima/",
-      img: "assets/project/project-eight.png"
+      img: "assets/project/project-eight.png",
     },
     {
       title: "Project Nine",
       tech: "HTML, CSS, JS",
-      github: "https://github.com/emcc2302/health-tracker",
-      live: "https://emcc2302.github.io/health-tracker/",
-      img: "assets/project/project-nine.png"
+      github: "https://github.com/emcc2302/TIC-TAC-TOE-GAME-JS",
+      live: "https://emcc2302.github.io/TIC-TAC-TOE-GAME-JS/",
+      img: "assets/project/project-six.jpg",
     },
     {
       title: "Project Ten",
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/Amazon-Clone",
       live: "#",
-      img: "assets/project/project-seven.png"
+      img: "assets/project/project-seven.png",
     },
     {
       title: "Project Eleven",
       tech: "HTML, CSS, JS",
       github: "#",
       live: "#",
-      img: "assets/project/project-eleven.png"
+      img: "assets/project/project-eleven.png",
     },
     {
       title: "Project Twelve",
       tech: "HTML, CSS",
       github: "#",
       live: "#",
-      img: "assets/project/project-twelve.png"
+      img: "assets/project/project-twelve.png",
     },
     // Add more here
   ];
@@ -76,7 +74,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectsPerClick = 3;
 
   function loadNextProjects() {
-    const nextProjects = extraProjects.slice(currentIndex, currentIndex + projectsPerClick);
+    const nextProjects = extraProjects.slice(
+      currentIndex,
+      currentIndex + projectsPerClick
+    );
 
     nextProjects.forEach((proj) => {
       const card = document.createElement("div");
@@ -113,8 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
-
 // contact.js
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form");
@@ -149,7 +148,6 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
 // document.addEventListener("DOMContentLoaded", () => {
 //   const hamburger = document.getElementById("hamburger");
 //   const navMenu = document.querySelector(".header-content");
@@ -159,7 +157,6 @@ document.addEventListener("DOMContentLoaded", function () {
 //     navMenu.classList.toggle("active");
 //   });
 // });
-
 
 document.addEventListener("DOMContentLoaded", () => {
   const hamburger = document.getElementById("hamburger");
@@ -173,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Close menu when any nav link is clicked
-  navLinks.forEach(link => {
+  navLinks.forEach((link) => {
     link.addEventListener("click", () => {
       hamburger.classList.remove("active");
       navMenu.classList.remove("active");
@@ -183,7 +180,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // for footer email
 
- document.getElementById("smartEmailLink").addEventListener("click", function (e) {
+document
+  .getElementById("smartEmailLink")
+  .addEventListener("click", function (e) {
     e.preventDefault();
 
     // Simple device check
@@ -194,6 +193,9 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = "mailto:sorifulislamsk1@gmail.com";
     } else {
       // Open Gmail compose in browser on desktop
-      window.open("https://mail.google.com/mail/?view=cm&to=sorifulislamsk1@gmail.com", "_blank");
+      window.open(
+        "https://mail.google.com/mail/?view=cm&to=sorifulislamsk1@gmail.com",
+        "_blank"
+      );
     }
   });
