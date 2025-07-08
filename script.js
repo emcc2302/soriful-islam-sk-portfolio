@@ -25,47 +25,55 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectContainer = document.querySelector(".project");
 
   const extraProjects = [
-    {
+
+{
       title: "Project Seven",
+      tech: "HTML, CSS, JS",
+      github: "https://github.com/emcc2302/TIC-TAC-TOE-GAME-JS",
+      live: "https://emcc2302.github.io/TIC-TAC-TOE-GAME-JS/",
+      img: "assets/project/project-six.jpg",
+    },
+
+    {
+      title: "Project Eight",
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/Ecommerce",
       live: "https://sorifulislamsk-ecommerce.netlify.app/",
       img: "assets/project/project-three.png",
     },
     {
-      title: "Project Eight",
+      title: "Project Nine",
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/banglar-shasya-bima",
       live: "https://emcc2302.github.io/banglar-shasya-bima/",
       img: "assets/project/project-eight.png",
     },
-    {
-      title: "Project Nine",
-      tech: "HTML, CSS, JS",
-      github: "https://github.com/emcc2302/TIC-TAC-TOE-GAME-JS",
-      live: "https://emcc2302.github.io/TIC-TAC-TOE-GAME-JS/",
-      img: "assets/project/project-six.jpg",
-    },
-    {
+
+
+     {
       title: "Project Ten",
+      tech: "HTML, CSS, JS , GSAP",
+      github: "https://github.com/emcc2302/sidcup_family_golf_clone",
+      live: "https://emcc2302.github.io/sidcup_family_golf_clone/",
+      img: "assets/project/project-two.png",
+    },
+    
+  
+   
+    {
+      title: "Project Eleven",
+      tech: "HTML, CSS, JS",
+      github: "https://github.com/emcc2302/simple-calculator",
+      live: "https://emcc2302.github.io/simple-calculator/",
+      img: "assets/project/project-twelve.png",
+    },
+
+     {
+      title: "Project Twelve",
       tech: "HTML, CSS",
       github: "https://github.com/emcc2302/Amazon-Clone",
       live: "#",
       img: "assets/project/project-seven.png",
-    },
-    {
-      title: "Project Eleven",
-      tech: "HTML, CSS, JS",
-      github: "#",
-      live: "#",
-      img: "assets/project/project-eleven.png",
-    },
-    {
-      title: "Project Twelve",
-      tech: "HTML, CSS",
-      github: "#",
-      live: "#",
-      img: "assets/project/project-twelve.png",
     },
     // Add more here
   ];
