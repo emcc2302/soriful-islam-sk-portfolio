@@ -35,41 +35,26 @@
 
 /* Project Images */
 
-/* Project 1 */
-.card:nth-child(1) {
+.card:nth-of-type(1) {
   background: url(./assets/project/project-one.png) center center / cover no-repeat;
 }
 
-/* Project 2 */
-.card:nth-child(2) {
-   background: url(../assets/project/project-thirteen.png) center center/cover;
+.card:nth-of-type(2) {
+  background: url(./assets/project/project-thirteen.png) center center / cover no-repeat;
 }
 
-/* Project 3 */
-.card:nth-child(3) {
-  background: url(../assets/project/project-five.png) center center/cover;
+.card:nth-of-type(3) {
+  background: url(./assets/project/project-five.png) center center / cover no-repeat;
 }
 
-/* Project 4 */
-.card:nth-child(4) {
-
- 
-
-  background: url(../assets/project/project-nine.png) center center/cover;
+.card:nth-of-type(4) {
+  background: url(./assets/project/project-nine.png) center center / cover no-repeat;
 }
 
-/* Project 5 */
-.card:nth-child(5) {
- 
-
-
-
-  background: url(../assets/project/project-eleven.png) center center/cover;
-
+.card:nth-of-type(5) {
+  background: url(./assets/project/project-eleven.png) center center / cover no-repeat;
 }
 
-/* Project 6 */
-.card:nth-child(6) {
-  background: url(../assets/project/project-four.png) center center/cover;
+.card:nth-of-type(6) {
+  background: url(./assets/project/project-four.png) center center / cover no-repeat;
 }
-
