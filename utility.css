@@ -40,12 +40,16 @@
 }
 
 .card:nth-of-type(2) {
-  background: url(./assets/project/project-cur.png) center center / cover no-repeat;
+  background: url(./assets/project/project-roomora.png) center center / cover no-repeat;
 }
 
 .card:nth-of-type(3) {
-  background: url(./assets/project/project-thirteen.png) center center / cover no-repeat;
+  background: url(./assets/project/project-cur.png) center center / cover no-repeat;
 }
+
+/* .card:nth-of-type(3) {
+  background: url(./assets/project/project-thirteen.png) center center / cover no-repeat;
+} */
 
 .card:nth-of-type(4) {
   background: url(./assets/project/project-five.png) center center / cover no-repeat;
