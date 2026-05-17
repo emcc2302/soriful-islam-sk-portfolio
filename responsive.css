@@ -217,3 +217,22 @@ html {
   }
 }
 
+@media (max-width: 768px) {
+
+  .experience-top {
+    flex-direction: column;
+  }
+
+  .experience-date {
+    align-self: flex-start;
+  }
+
+  .experience-card {
+    padding: 1.5rem;
+  }
+
+  .experience .heading {
+    font-size: 2rem;
+  }
+
+}

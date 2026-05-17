@@ -372,6 +372,139 @@ body.dark-mode .about .btn:hover {
   color: #000;
 }
 
+
+/* EXPERIENCE SECTION */
+
+.experience {
+  padding: 5rem 2rem;
+  background: var(--bg-color, #f0f0f0);
+}
+
+body.dark-mode .experience {
+  background: #1a1a1a;
+  color: white;
+}
+
+.experience .heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.experience-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.experience-card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 20px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.experience-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 6px;
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    #ffcd42,
+    #ee0653,
+    #42e6ff
+  );
+}
+
+.experience-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+.experience-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.experience-top h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.experience-top h4 {
+  color: #42e6ff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.experience-date {
+  background: #ffcd42;
+  color: #000;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.experience-points {
+  padding-left: 1rem;
+}
+
+.experience-points li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+body.light-mode .experience-points li {
+  color: #333;
+}
+
+.experience-links {
+  margin-top: 1.5rem;
+}
+
+.experience-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  background: #42e6ff;
+  color: #000;
+
+  padding: 0.7rem 1.2rem;
+  border-radius: 30px;
+
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.experience-links a:hover {
+  background: #ee0653;
+  color: white;
+}
+
 /* 
 skills */
 
