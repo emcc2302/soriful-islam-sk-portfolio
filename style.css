@@ -223,6 +223,7 @@ body.light-mode {
 .social-icon a{
   padding: 1.5%;
    color: inherit; 
+   font-size: 2rem;
 }
 
 .social-icon a .fa-linkedin{
@@ -391,17 +392,16 @@ body.dark-mode .experience {
   margin-bottom: 3rem;
 }
 
-.experience-container {
-  max-width: 1100px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 380px));
+    justify-content: center;
+    gap: 2rem;
 }
 
 .experience-card {
   position: relative;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 20px;
 
   background: rgba(255, 255, 255, 0.08);
@@ -472,8 +472,8 @@ body.dark-mode .experience {
 }
 
 .experience-points li {
-  margin-bottom: 1rem;
-  line-height: 1.6;
+  margin-bottom: 0.7rem;
+  line-height: 1.45;
   color: #d6d6d6;
 }
 
@@ -482,7 +482,7 @@ body.light-mode .experience-points li {
 }
 
 .experience-links {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .experience-links a {
